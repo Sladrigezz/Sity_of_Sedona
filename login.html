@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Форма входа для Sedona</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <nav>
+        <a class="header-logo" href="index.html"><img src="img/logo.png" width="138" height="70" aria-label="City of Sedona" alt=""></a>
+        <ul class="main-menu">
+            <li class="main-menu-left"><a href="index.html" class="active">Информация</a></li>
+            <li class="main-menu-left"><a href="gallery.html">Фото и видео</a></li>
+            <li class="main-menu-right"><a href="hotels.html">Гостиницы</a></li>
+            <li class="main-menu-right"><a href="map.html">Карта штата</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="modal-search-popup">
+        <form class="modal-content-form-search" action="index.html" method="post">
+          <div class="modal-container">
+            <label for="form-arrival">Дата заезда:</label>
+            <input type="date" id="form-arrival" name="arrival" value=""><br>
+            <label for="form-departure">Дата выезда:</label>
+            <input type="date" id="form-departure" name="departure" value="">
+          </div>
+          <div class="modal-container-low">
+            <label for="form-adults">Взрослые:</label>
+            <input type="number" id="form-adults" name="adults" value="1">
+            <label for="form-children">Дети:</label>
+            <input type="number" id="form-children" name="adults" value="1">
+          </div>
+          <button type="submit" class="modal-btn" name="sumbit">Найти</button>
+        </form>
+      </div>
+      </main>
+
+    <footer class="main-footer">
+      <p class="footer-visitsedona">
+        #visitSedona
+      </p>
+      <p class="footer-social">
+        <span class="visibility-hidden">Подписывайтесь на нас в соцсетях</span>
+        <a class="social-btn social-btn-fb" href="#">Фейсбук</a><span class="visibility-hidden">,</span>
+        <a class="social-btn social-btn-tv" href="#">Твиттер</a><span class="visibility-hidden">,</span>
+        <a class="social-btn social-btn-youtube" href="#">Ютуб</a><span class="visibility-hidden">,</span>
+      </p>
+      <p class="footer-copyright">
+        <span>website by</span>
+        <a class="footer-copyright-web" href="#">html-academy</a>
+      </p>
+    </footer>
+  </body>
+</html>
